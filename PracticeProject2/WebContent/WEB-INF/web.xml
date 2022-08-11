@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+	<servlet-name>servlet</servlet-name>
+	<servlet-class>product.ProductServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>servlet</servlet-name>
+	<url-pattern>/query</url-pattern>
+</servlet-mapping>
+
+</web-app>
